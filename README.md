@@ -1,18 +1,18 @@
 # API Automation Framework User Guide
 
-[![Python API Tests](https://github.com/iisleem/api-automation-framework/actions/workflows/api-tests.yml/badge.svg)](https://github.com/iisleem/api-automation-framework/actions/workflows/api-tests.yml)
+[![Python API Tests](https://github.com/ismailisleem/api-automation-framework/actions/workflows/api-tests.yml/badge.svg)](https://github.com/ismailisleem/api-automation-framework/actions/workflows/api-tests.yml)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![Pytest](https://img.shields.io/badge/tested%20with-pytest-0A9EDC.svg)](https://pytest.org/)
 [![HTTPX](https://img.shields.io/badge/http-client-httpx-2EAD33.svg)](https://www.python-httpx.org/)
 [![Requests](https://img.shields.io/badge/http-client-requests-20232A.svg)](https://requests.readthedocs.io/)
-[![Reports](https://img.shields.io/badge/reports-automation--core-2EAD33.svg)](https://github.com/iisleem/automation-core)
+[![Reports](https://img.shields.io/badge/reports-automation--core-2EAD33.svg)](https://github.com/ismailisleem/automation-core)
 [![Allure](https://img.shields.io/badge/Allure-optional-orange.svg)](https://allurereport.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Python API automation framework built with Pytest, HTTPX, Requests, JSON Schema, OpenAPI contracts, GraphQL support, automation-core product reporting, optional official Allure reporting, retry support, parallel execution, and GitHub Actions CI.
 
 This repository is the API-focused sibling of the web and mobile automation frameworks in the Fullstack Automation portfolio.
-Shared, domain-neutral utilities are consumed from [`automation-core`](https://github.com/iisleem/automation-core) so config, logging, reporting, waits, retries, files, text, data, security, performance, cleanup, and soft assertions stay consistent across the web, mobile, and API frameworks.
+Shared, domain-neutral utilities are consumed from [`automation-core`](https://github.com/ismailisleem/automation-core) so config, logging, reporting, waits, retries, files, text, data, security, performance, cleanup, and soft assertions stay consistent across the web, mobile, and API frameworks.
 
 ## What This Framework Gives You
 
@@ -127,7 +127,7 @@ This repository is configured as a GitHub template. For a product-specific API s
 this template, then copy the starter files into the generated repository root:
 
 For the shared portfolio template approach, see the
-[automation-core template strategy](https://github.com/iisleem/automation-core/blob/main/docs/template_strategy.md).
+[automation-core template strategy](https://github.com/ismailisleem/automation-core/blob/main/docs/template_strategy.md).
 
 ```bash
 cp -R templates/starter_project/config/* config/
