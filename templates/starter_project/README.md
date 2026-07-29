@@ -5,7 +5,7 @@ It shows the smallest useful shape for a product API suite while reusing the fra
 fixtures, schema validator, reporting, and CLI.
 
 For the shared portfolio template approach, see the
-[automation-core template strategy](https://github.com/iisleem/automation-core/blob/main/docs/template_strategy.md).
+[automation-core template strategy](https://github.com/ismailisleem/automation-core/blob/main/docs/template_strategy.md).
 
 ## Copy Into A New Product Suite
 
