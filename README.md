@@ -1,4 +1,4 @@
-# API Automation Framework User Guide
+# API Automation Framework
 
 [![Python API Tests](https://github.com/ismailisleem/api-automation-framework/actions/workflows/api-tests.yml/badge.svg)](https://github.com/ismailisleem/api-automation-framework/actions/workflows/api-tests.yml)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
