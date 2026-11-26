@@ -9,12 +9,29 @@
 [![Allure](https://img.shields.io/badge/Allure-optional-orange.svg)](https://allurereport.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+Pytest framework for REST and GraphQL API testing: service objects, JSON Schema and OpenAPI contract checks, auth helpers, and a built-in HTML report.
+
+![API report overview](docs/assets/walkthrough/core-report-overview.png)
+
+**Quick start**
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+python framework.py run
+```
+
+Runs against mock APIs by default. Full guide below.
+
 Python API automation framework built with Pytest, HTTPX, Requests, JSON Schema, OpenAPI contracts, GraphQL support, automation-core product reporting, optional official Allure reporting, retry support, parallel execution, and GitHub Actions CI.
 
-This repository is the API-focused sibling of the web and mobile automation frameworks in the Fullstack Automation portfolio.
+This repository is the API-focused sibling of the web and mobile automation frameworks.
 Shared, domain-neutral utilities are consumed from [`automation-core`](https://github.com/ismailisleem/automation-core) so config, logging, reporting, waits, retries, files, text, data, security, performance, cleanup, and soft assertions stay consistent across the web, mobile, and API frameworks.
 
 ## What This Framework Gives You
+
+<details>
+<summary>Show the full feature list</summary>
 
 - Clean API service layer with request details kept out of test files
 - Pytest fixtures for API clients, GraphQL clients, config, schemas, users, and payload data
@@ -39,7 +56,12 @@ Shared, domain-neutral utilities are consumed from [`automation-core`](https://g
 - Smoke, regression, e2e, negative, contract, REST, GraphQL, auth, helpers, live, and reporting demo markers
 - GitHub Actions workflow for CI
 
+</details>
+
 ## Project Structure
+
+<details>
+<summary>Show the project structure</summary>
 
 ```text
 api-automation-framework/
@@ -101,6 +123,8 @@ api-automation-framework/
 ├── requirements.txt               # Python dependencies
 └── .gitignore
 ```
+
+</details>
 
 ## Quick Start
 
